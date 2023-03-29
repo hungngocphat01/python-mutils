@@ -15,7 +15,7 @@ class Processor:
         return self._df.__repr__
     
     def __str__(self) -> str:
-        return self._df.__repr__
+        return self._df.__str__
     
     def keep_dtypes(self, keep_dt: List[str]):
         df = self._df.copy()
